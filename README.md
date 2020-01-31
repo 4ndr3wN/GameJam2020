@@ -1,5 +1,5 @@
 # GameJam2020 
-Team GameJam2020
+Team Not Defined
 <<<<<<< HEAD
 
 User: Daan van Egmond
