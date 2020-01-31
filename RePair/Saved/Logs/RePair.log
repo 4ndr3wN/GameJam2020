@@ -651,3 +651,166 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.31-22.58.20:806][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2020.01.31-22.58.26:211][ 21]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/HomeBase.HomeBase
 [2020.01.31-22.58.26:591][ 22]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.31-23.00.07:733][689]LogSlate: Window 'HomeBase' being destroyed
+[2020.01.31-23.00.16:614][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.00.16:631][203]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseB4C5FC0047C259B7472201B6E369FE49.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.00.16:647][203]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.00.16:647][203]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.00.19:307][355]LogRenderer: Reallocating scene render targets to support 1000x500 Format 10 NumSamples 1 (Frame:1).
+[2020.01.31-23.02.36:691][889]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\ricca\Desktop\Cube.fbx)
+[2020.01.31-23.02.36:846][889]LogFbx: Loading FBX Scene from C:\Users\ricca\Desktop\Cube.fbx
+[2020.01.31-23.02.36:862][889]LogFbx: FBX Scene Loaded Succesfully
+[2020.01.31-23.02.38:654][889]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.01.31-23.02.38:854][889]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2020.01.31-23.02.38:895][889]LogFbx: Display: Triangulating static mesh Cube
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.01.31-23.02.38:912][889]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.01.31-23.02.38:965][889]LogStaticMesh: Building static mesh Cube...
+[2020.01.31-23.02.38:987][889]LogStaticMesh: Built static mesh [0.02s] /Game/Art/Meshes_FBX/Cube.Cube
+[2020.01.31-23.02.39:019][889]LogStaticMesh: Warning: Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.01.31-23.02.39:019][889]LogStaticMesh: Warning: Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.01.31-23.02.39:029][889]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.01.31-23.02.39:029][889]FBXImport: Warning: Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.01.31-23.02.39:029][889]FBXImport: Warning: Cube has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.01.31-23.02.41:803][  7]LogSlate: Window 'Message Log' being destroyed
+[2020.01.31-23.02.41:812][  7]LogSlate: Window 'Message Log' being destroyed
+[2020.01.31-23.02.43:382][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Meshes_FBX/Cube" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Meshes_FBX/Cube.uasset" SILENT=true
+[2020.01.31-23.02.43:395][ 87]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/Cube802F063944236D8A1ECE279B1870677B.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Meshes_FBX/Cube.uasset'
+[2020.01.31-23.02.43:411][ 87]AssetCheck: New page: Asset Save: Cube
+[2020.01.31-23.02.43:411][ 87]LogContentValidation: Display: Validating StaticMesh /Game/Art/Meshes_FBX/Cube.Cube
+[2020.01.31-23.02.44:800][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Meshes_FBX/Material" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Meshes_FBX/Material.uasset" SILENT=true
+[2020.01.31-23.02.44:812][166]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/MaterialF11323B945D7027D60037CAF14441DCA.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Meshes_FBX/Material.uasset'
+[2020.01.31-23.02.44:827][166]AssetCheck: New page: Asset Save: Material
+[2020.01.31-23.02.44:827][166]LogContentValidation: Display: Validating Material /Game/Art/Meshes_FBX/Material.Material
+[2020.01.31-23.02.46:372][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.01.31-23.02.48:633][255]LogSlate: Window 'Delete Assets' being destroyed
+[2020.01.31-23.03.01:697][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Material/Material" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Material/Material.uasset" SILENT=true
+[2020.01.31-23.03.01:709][997]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/MaterialB6AA4B7A4B60C29A6A8EDE8A174698D6.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Material/Material.uasset'
+[2020.01.31-23.03.01:923][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.01.31-23.03.01:966][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.01.31-23.03.01:998][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.01.31-23.03.02:037][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Meshes_FBX/Cube" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Meshes_FBX/Cube.uasset" SILENT=true
+[2020.01.31-23.03.02:048][997]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/Cube8230983E403EB1C233937E8BFC867709.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Art/Meshes_FBX/Cube.uasset'
+[2020.01.31-23.03.02:089][997]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.31-23.03.02:089][997]LogContentValidation: Display: Validating Material /Game/Art/Material/Material.Material
+[2020.01.31-23.03.02:089][997]LogContentValidation: Display: Validating StaticMesh /Game/Art/Meshes_FBX/Cube.Cube
+[2020.01.31-23.03.06:666][121]LogSlate: Window 'Save Level As' being destroyed
+[2020.01.31-23.03.15:189][163]LogSlate: Window 'Save Level As' being destroyed
+[2020.01.31-23.03.24:218][689]LogAIModule: Creating AISystem for world riccardoBaseMap
+[2020.01.31-23.03.24:220][689]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/riccardoBaseMap.riccardoBaseMap
+[2020.01.31-23.03.24:253][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.01.31-23.03.26:317][689]LogSlate: Window 'Save Content' being destroyed
+[2020.01.31-23.03.26:324][689]Cmd: MAP LOAD FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.31-23.03.26:328][689]LightingResults: New page: Lighting Build
+[2020.01.31-23.03.26:328][689]LoadErrors: New page: Loading map: riccardoBaseMap.umap
+[2020.01.31-23.03.26:329][689]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.01.31-23.03.26:329][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.31-23.03.26:329][689]MapCheck: New page: Map Check
+[2020.01.31-23.03.26:329][689]LightingResults: New page: Lighting Build
+[2020.01.31-23.03.26:366][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.01.31-23.03.26:368][689]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.31-23.03.26:406][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.01.31-23.03.26:425][689]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.31-23.03.26:425][689]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,072ms to complete.
+[2020.01.31-23.03.26:425][689]LogFileHelpers: Loading map 'riccardoBaseMap' took 0.101
+[2020.01.31-23.03.27:650][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/riccardoBaseMap" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.31-23.03.27:683][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.01.31-23.03.27:700][756]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/riccardoBaseMap3B81CEA641977F1B108624AEDDC4ED43.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap'
+[2020.01.31-23.03.27:720][756]LogFileHelpers: Saving map 'riccardoBaseMap' took 0.071
+[2020.01.31-23.03.27:736][756]AssetCheck: New page: Asset Save: riccardoBaseMap
+[2020.01.31-23.03.27:736][756]LogContentValidation: Display: Validating World /Game/Levels/riccardoBaseMap.riccardoBaseMap
+[2020.01.31-23.03.28:977][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/riccardoBaseMap" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.31-23.03.29:012][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.01.31-23.03.29:025][827]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/riccardoBaseMap59B2DD0045EE009DED5E7AA2CC0BB1F2.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap'
+[2020.01.31-23.03.29:046][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/riccardoBaseMap_BuiltData" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap_BuiltData.uasset" SILENT=true
+[2020.01.31-23.03.29:064][827]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/riccardoBaseMap_BuiltData81BD511344EE400FF1C5669894E47F82.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap_BuiltData.uasset'
+[2020.01.31-23.03.29:086][827]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.31-23.03.29:086][827]LogContentValidation: Display: Validating World /Game/Levels/riccardoBaseMap.riccardoBaseMap
+[2020.01.31-23.03.29:086][827]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/riccardoBaseMap_BuiltData.riccardoBaseMap_BuiltData
+[2020.01.31-23.03.44:957][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.03.44:976][762]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBase8B0AEC73410D12B3F876C5B89819A9C3.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.03.44:991][762]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.03.44:991][762]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.03.45:885][812]BlueprintLog: New page: Compile HomeBase
+[2020.01.31-23.03.46:104][812]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.01.31-23.03.46:708][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.03.46:728][842]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseC37AE84140FE1B3D6AE80DAF24A7D1C5.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.03.46:743][842]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.03.46:743][842]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.07.13:552][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.07.13:577][599]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseD407026C4804395030DC928169D5533D.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.07.13:596][599]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.07.13:596][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.07.16:868][793]BlueprintLog: New page: Compile HomeBase
+[2020.01.31-23.07.17:093][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.01.31-23.07.17:806][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.07.17:825][830]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseC557A50645F6A5DF27CFCA94079099BE.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.07.17:840][830]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.07.17:840][830]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.08.02:440][482]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.01.31-23.08.18:269][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.08.18:289][349]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseC8F3B33642A43BBAB27B8BA355D746C0.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.08.18:307][349]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.08.18:307][349]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.08.20:900][497]BlueprintLog: New page: Compile HomeBase
+[2020.01.31-23.08.21:116][497]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.01.31-23.08.21:757][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.08.21:777][531]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseF21DF88F45F58421D39A73B8D4288F6E.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.08.21:791][531]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.08.21:791][531]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.09.21:168][ 11]BlueprintLog: New page: Compile HomeBase
+[2020.01.31-23.09.21:395][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.01.31-23.09.21:949][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.09.21:969][ 38]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBaseEB91BECF44A868928CBF3898BF3E151F.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.09.21:989][ 38]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.09.21:989][ 38]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.10.45:028][928]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Collectable.Collectable
+[2020.01.31-23.10.58:124][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collectable" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Collectable.uasset" SILENT=true
+[2020.01.31-23.10.58:132][695]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/CollectableF4C277794A5A7E9FCEB03FBA038A6F18.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Collectable.uasset'
+[2020.01.31-23.10.58:147][695]AssetCheck: New page: Asset Save: Collectable
+[2020.01.31-23.10.58:148][695]LogContentValidation: Display: Validating UserDefinedStruct /Game/Collectable.Collectable
+[2020.01.31-23.11.00:929][846]BlueprintLog: New page: Compile HomeBase
+[2020.01.31-23.11.01:175][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.01.31-23.11.01:674][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.11.01:695][871]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBase4EA691B44C273497E418BB8554F62A95.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.11.01:711][871]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.11.01:711][871]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.11.41:030][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.11.41:052][ 99]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBase717112F64B213514A7F2B49BEE4683EA.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.11.41:071][ 99]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.11.41:071][ 99]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.12.22:591][518]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.31-23.13.43:579][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.01.31-23.13.43:580][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/riccardoBaseMap' took 0.040
+[2020.01.31-23.13.43:580][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomGameInstance] ([1] browsable assets)...
+[2020.01.31-23.13.43:580][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomGameInstance]
+[2020.01.31-23.13.43:580][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomGameInstance" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Saved/Autosaves/Game/CustomGameInstance_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.31-23.13.43:602][269]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/CustomGameInstance_Auto187E02EA247BE9DAAA942229D58D2D90E.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Saved/Autosaves/Game/CustomGameInstance_Auto1.uasset'
+[2020.01.31-23.13.43:603][269]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HomeBase] ([1] browsable assets)...
+[2020.01.31-23.13.43:621][269]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/HomeBase.HomeBase]
+[2020.01.31-23.13.43:621][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HomeBase]
+[2020.01.31-23.13.43:621][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Saved/Autosaves/Game/Blueprints/HomeBase_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.01.31-23.13.43:649][269]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBase_Auto1535FD04248DF1057C7E78FAE02B31ACA.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Saved/Autosaves/Game/Blueprints/HomeBase_Auto1.uasset'
+[2020.01.31-23.13.43:649][269]LogFileHelpers: Auto-saving content packages took 0.069
+[2020.01.31-23.15.20:275][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HomeBase" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset" SILENT=true
+[2020.01.31-23.15.20:582][ 62]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/HomeBase1B5ED2024B62685AD9D9B096210DA11A.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Blueprints/HomeBase.uasset'
+[2020.01.31-23.15.20:600][ 62]AssetCheck: New page: Asset Save: HomeBase
+[2020.01.31-23.15.20:600][ 62]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/HomeBase.HomeBase
+[2020.01.31-23.15.23:131][204]BlueprintLog: New page: Compile HomeBase
+[2020.01.31-23.15.23:352][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.01.31-23.15.24:597][275]BlueprintLog: New page: Compile CustomGameInstance
+[2020.01.31-23.15.24:830][275]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.01.31-23.15.26:909][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/riccardoBaseMap" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.31-23.15.26:951][387]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.01.31-23.15.26:968][387]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/riccardoBaseMap32418A2A4A1CAAD8721CE2AF6AEEC4E5.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap.umap'
+[2020.01.31-23.15.26:992][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/riccardoBaseMap_BuiltData" FILE="../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap_BuiltData.uasset" SILENT=true
+[2020.01.31-23.15.27:009][387]LogSavePackage: Moving '../../../../../GGJ2020/SVN/trunk/RePair/Saved/riccardoBaseMap_BuiltData4C4F959948E15AE76B5ED9BDC7E69EBB.tmp' to '../../../../../GGJ2020/SVN/trunk/RePair/Content/Levels/riccardoBaseMap_BuiltData.uasset'
+[2020.01.31-23.15.27:029][387]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.31-23.15.27:029][387]LogContentValidation: Display: Validating World /Game/Levels/riccardoBaseMap.riccardoBaseMap
+[2020.01.31-23.15.27:029][387]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/riccardoBaseMap_BuiltData.riccardoBaseMap_BuiltData
