@@ -1,0 +1,14 @@
+Upwards low
+Downwards high
+Upwards low
+Downwards low
+
+Upwards mid
+Downwards low
+Upwards mid
+Downwards low
+
+Upwards high
+Downwards mid
+Upwards high
+Upwards mid
