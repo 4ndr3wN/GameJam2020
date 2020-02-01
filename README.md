@@ -1,8 +1,9 @@
 # GameJam2020 
-Team GameJam2020
-<<<<<<< HEAD
+Theme: Repair
 
-User: Daan van Egmond
+This is our Game Jam 2020 Entry. 
 
-test commit: Rick Heeren
->>>>>>> master
+Game Description:
+
+Game Mechanics:
+
