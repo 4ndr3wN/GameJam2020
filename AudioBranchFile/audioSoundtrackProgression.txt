@@ -1,3 +1,12 @@
+Style: 20s swing (Sing, Sing, Sing by Benny Goodman)
+
+Legend:
+Upwards: 3x 16th note + 4x 8th note + 1x 16th note + 1x 8th note
+Downwards: 3x 16th note + 4x 8th note + 1x 16th note + 1x 8th note
+
+Progression:
+Draft 1 (guitar):
+
 Upwards low
 Downwards high
 Upwards low
@@ -8,7 +17,14 @@ Downwards low
 Upwards mid
 Downwards low
 
-Upwards high
+(Upwards high
 Downwards mid
 Upwards high
+Downwards mid)
+
+Draft 2 (guitar):
+
+Rhythm:
+Upwards low
 Upwards mid
+
